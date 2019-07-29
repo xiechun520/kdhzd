@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"user-img wx-image{ width: ",[0,100],"; height: ",[0,100],"; border-radius: 50%; }\n",],undefined,{path:"./pages/user/user.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user/user.wxml') } }));

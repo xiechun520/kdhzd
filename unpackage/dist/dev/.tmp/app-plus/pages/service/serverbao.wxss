@@ -1,0 +1,22 @@
+
+.item {
+	width: 80rpx;
+	height: 80rpx;
+	background: rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0rpx 0rpx 9rpx 1rpx rgba(0, 0, 0, 0.1);
+	        box-shadow: 0rpx 0rpx 9rpx 1rpx rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+}
+.list3 {
+	width: 698rpx;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 15rpx;
+}
+.cu-item{
+	width: 48%;
+	-webkit-box-shadow: 0rpx 0px 4rpx 4rpx #eeeeee;
+	        box-shadow: 0rpx 0px 4rpx 4rpx #eeeeee;
+	margin-bottom: 20rpx;
+	border-radius: 20rpx;
+}
+

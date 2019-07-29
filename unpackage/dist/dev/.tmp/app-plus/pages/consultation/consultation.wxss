@@ -1,0 +1,31 @@
+
+.user-img{
+	width: 200rpx;
+	height: 140rpx;
+	border-radius: 10rpx;
+}
+.user-ico{
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 6rpx;
+}
+.zxtitle{
+	color: #666666;
+}
+.bqico text{
+	display: inline-block;
+	padding: 4rpx 8rpx;
+	-webkit-box-shadow: 0rpx 0rpx 4rpx 4rpx #f1f1f1;
+	        box-shadow: 0rpx 0rpx 4rpx 4rpx #f1f1f1;
+	border-radius: 4rpx;
+	color: #888888;
+	font-size: 24rpx;
+	margin-right: 6rpx;
+}
+.zx-ft{
+	font-size: 24rpx;
+	color: #888888;
+}
+

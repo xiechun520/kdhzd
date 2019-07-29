@@ -1,0 +1,72 @@
+
+.tkshico{
+	width: 30rpx;
+	height: 30rpx;
+	text-align: center;
+	line-height: 30rpx;
+	border-radius: 50%;
+	background: red;
+	color: #FFFFFF;
+	display: inline-block;
+	margin-left: 6rpx;
+	-webkit-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	        transform: scale(0.8);
+}
+.fw-tab{
+	border-radius: 10rpx;
+	overflow: hidden;
+	-webkit-box-shadow: 0rpx 0rpx 6rpx 4rpx #f1f1f1;
+	        box-shadow: 0rpx 0rpx 6rpx 4rpx #f1f1f1;
+	margin: 20rpx;
+}
+.fw-tab view{
+	width: 50%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+}
+view.active{
+	background: rgba(50,194,255,1);
+	color: #ffffff;
+}
+.tabtype view image{
+	width: 50rpx;
+	height: 50rpx;
+}
+.tabtype view text{
+	display: block;
+	color: #888888;
+}
+/* 通用样式 */
+.qiun-charts {
+	position: relative;
+	margin-top: 50rpx;
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+.jine{
+	font-size: 24rpx;
+	position: absolute;
+	top: -20rpx;
+	left: 20rpx;
+	z-index: 9;
+	color: #888888;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+.fw-list view text{
+	width: 25%;
+	text-align: center;
+}
+.fw-list view text:first-child{
+	text-align: left;
+}
+.fw-list view text:last-child{
+	text-align: right;
+}
+

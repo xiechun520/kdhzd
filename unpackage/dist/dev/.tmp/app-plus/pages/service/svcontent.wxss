@@ -1,0 +1,36 @@
+
+.page {
+	height: 100vh;
+}
+.backico{
+	display: inline-block;
+	height: 50rpx;
+	width: 50rpx;
+	line-height: 50rpx;
+	border-radius: 50%;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+}
+.share{
+	display: inline-block;
+	padding: 6rpx 16rpx;
+	background: #c3c3c3;
+	color: #FFFFFF;
+	border-radius: 30rpx 0rpx 0rpx 30rpx;
+	margin-right: -34rpx;
+}
+.evaluate text{
+	display: inline-block;
+	padding: 6rpx 16rpx;
+	background: #CFF1FF;
+	margin-right: 20rpx;
+	border-radius: 30rpx;
+}
+.evaluate-img{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+

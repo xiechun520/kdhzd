@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"docter","entryPagePath":"pages/main/main.html","page":{"pages/main/main.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/login/login.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom","m-input":"/components/m-input"}}},"pages/login/reg.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom","m-input":"/components/m-input"}}},"pages/login/pwd.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom","m-input":"/components/m-input"}}},"pages/user/user.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/service/server.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/order/order.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/consultation/consultation.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/main/addteam.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/service/package.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/service/addserver.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/service/svcontent.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/order/teamorder.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/public/echarts.html":{"window":{"usingComponents":{}}},"pages/service/serverbao.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/service/addserverbao.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/order/orderlist.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/order/ordercontent.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}},"pages/main/Scheduling.html":{"window":{"usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}}},"global":{"window":{"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#0faeff","navigationStyle":"custom","backgroundColor":"#fbf9fe"}},"tabBar":{"color":"#7a7e83","selectedColor":"#0faeff","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/main/main.html","text":"团队","iconPath":"static/footertb/td.png","selectedIconPath":"static/footertb/td1.png"},{"pagePath":"pages/service/server.html","text":"服务","iconPath":"static/footertb/jk.png","selectedIconPath":"static/footertb/jk1.png"},{"pagePath":"pages/order/order.html","text":"订单","iconPath":"static/footertb/fw.png","selectedIconPath":"static/footertb/fw1.png"},{"pagePath":"pages/consultation/consultation.html","text":"咨询","iconPath":"static/footertb/zx.png","selectedIconPath":"static/footertb/zx1.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/main/main","pages/login/login","pages/login/reg","pages/login/pwd","pages/user/user","pages/service/server","pages/order/order","pages/consultation/consultation","pages/main/addteam","pages/service/package","pages/service/addserver","pages/service/svcontent","pages/order/teamorder","pages/public/echarts","pages/service/serverbao","pages/service/addserverbao","pages/order/orderlist","pages/order/ordercontent","pages/main/Scheduling"],"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.1.3","usingComponents":{"cu-custom":"/colorui/components/cu-custom"}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

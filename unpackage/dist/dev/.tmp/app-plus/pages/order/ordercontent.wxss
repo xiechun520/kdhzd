@@ -1,0 +1,39 @@
+
+.orderct{
+	overflow: hidden;
+	background: #FFFFFF;
+	padding: 0rpx;
+	margin: 20rpx 20rpx;
+	border-radius: 20rpx;
+	-webkit-box-shadow: 0rpx 0rpx 8rpx 4rpx #eaeaea;
+	        box-shadow: 0rpx 0rpx 8rpx 4rpx #eaeaea;
+}
+.ortitle{
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #FFFFFF;
+	background: rgba(166,228,255);
+	padding: 0rpx 30rpx;
+}
+.ortitle image{
+	vertical-align: sub;
+	margin-right: 10rpx;
+}
+.footer{
+	position: fixed;
+	left: 0rpx;
+	width: 100%;
+	bottom: 0rpx;
+	background: #8E8E8E;
+	color: #FFFFFF;
+}
+.footer view{
+	width: 33.3%;
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 32rpx;
+}
+.footer view:last-child{
+	background: #32C2FF;
+}
+

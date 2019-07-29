@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"fw-list .",[1],"fwxm wx-text{ width: 20%; text-align: center; }\n.",[1],"fw-list .",[1],"qykh wx-text{ width: 25%; text-align: center; }\n.",[1],"fw-list wx-view wx-text:first-child{ text-align: left; }\n.",[1],"fw-list wx-view wx-text:last-child{ text-align: right; }\n",],undefined,{path:"./pages/order/orderlist.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/order/orderlist.wxml') } }));

@@ -1,0 +1,233 @@
+
+.bluepd{
+	width: 100%;
+	height: 140rpx;
+	background: rgba(50,194,255,1);
+}
+.userbk{
+	margin-top: -120rpx;
+}
+.qdl{
+	line-height: 48rpx;
+}
+.qdltext{
+	font-size: 44rpx;
+}
+.geren{
+	background: rgba(250,205,137);
+	line-height: 50rpx;
+	padding: 0px 15rpx;
+	color: #FFFFFF;
+	border-radius: 30rpx 0rpx 0rpx 30rpx;
+	margin-right: -30rpx;
+}
+.serverico{
+	color: #666666;
+}
+.serverico .icobg{
+	display: inline-block;
+	width: 16rpx;
+	height: 16rpx;
+	border-radius: 50%;
+	background: #fbbd08;
+	margin-right: 6rpx;
+}
+.serverico:first-child .icobg{
+	background: red;
+}
+.serverico:last-child .icobg{
+	background: #0eff4f;
+}
+.server view{
+	text-align: center;
+	color: #777777;
+}
+.server view view{
+	position: relative;
+	display: inline-block;
+}
+.server view view text{
+	position: absolute;
+	top: 0rpx;
+	right: 0rpx;
+	width: 26rpx;
+	height: 26rpx;
+	border-radius: 50%;
+	background: red;
+	color: #ffffff;
+	font-size: 16rpx;
+	-webkit-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	        transform: scale(0.8);
+}
+.server view view text.ico1{
+	background: #fbbd08;
+}
+.server view view text.ico2{
+	background: #0eff4f;
+}
+.server view image{
+	width: 80rpx;
+	height: 80rpx;
+}
+.scroll-view_H {
+	white-space: nowrap;
+	width: 100%;
+}
+.teamlist {
+	display: inline-block;
+	width: 49%;
+	margin-right: 2%;
+}
+.teamlist image{
+	width: 100%;
+	height: 220rpx;
+}
+.anima{
+	font-size: 34rpx;
+}
+.anima text{
+	margin: 0px 4rpx;
+}
+.anima text:first-child{
+	-webkit-animation:mymove 5s infinite;
+	        animation:mymove 5s infinite;
+}
+.anima text:nth-child(2){
+	-webkit-animation:mymove1  5s infinite 0.5s;
+	        animation:mymove1  5s infinite 0.5s;
+}
+.anima text:nth-child(3){
+	-webkit-animation:mymove2  5s infinite 1s;
+	        animation:mymove2  5s infinite 1s;
+}
+@-webkit-keyframes mymove{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+75%  {color:block;}
+100% {color:red;}
+}
+@keyframes mymove{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+75%  {color:block;}
+100% {color:red;}
+}
+@-webkit-keyframes mymove1{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+75%  {color:block;}
+100% {color:red;}
+}
+@keyframes mymove1{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+75%  {color:block;}
+100% {color:red;}
+}
+@-webkit-keyframes mymove2{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+75%  {color:block;}
+100% {color:red;}
+}
+@keyframes mymove2{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+75%  {color:block;}
+100% {color:red;}
+}
+.echart_img {
+	-webkit-box-shadow: #EBEBEB 0px 0px 2px 1px;
+	        box-shadow: #EBEBEB 0px 0px 2px 1px;
+	border-radius: 0.3rem;
+	margin-top: 0.2rem;
+}
+.echart_ul {
+	background: #abe6ff;
+	border-radius: 0.3rem;
+	padding: 0.2rem;
+}
+/* 通用样式 */
+.qiun-charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+/* 横屏样式 */
+.qiun-charts-rotate {
+	width: 700rpx;
+	height: 1100rpx;
+	background-color: #FFFFFF;
+	padding: 25rpx;
+}
+.charts-rotate {
+	width: 700rpx;
+	height: 1100rpx;
+	background-color: #FFFFFF;
+}
+/* 圆弧进度样式 */
+.qiun-charts3 {
+	width: 750rpx;
+	height: 250rpx;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.charts3 {
+	position: absolute;
+	width: 250rpx;
+	height: 250rpx;
+	background-color: #FFFFFF;
+}
+.qiun-tip {
+	display: block;
+	width: auto;
+	overflow: hidden;
+	padding: 15rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	margin: 10rpx;
+	background: #ff9933;
+	font-size: 30rpx;
+	border-radius: 8rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+	border: 1px solid #dc7004;
+	color: #FFFFFF;
+}
+.fw-tab{
+	border-radius: 10rpx 10rpx 0rpx 0rpx;
+	overflow: hidden;
+}
+.fw-tab view{
+	width: 50%;
+	height: 70rpx;
+	line-height: 70rpx;
+	text-align: center;
+}
+view.active{
+	background: rgba(50,194,255,1);
+	color: #ffffff;
+}
+.fw-list view text:first-child{
+	width: 22%;
+}
+.fw-list view text:nth-child(3){
+	width: 47%;
+	text-align: center;
+}
+
